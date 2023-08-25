@@ -1,11 +1,12 @@
 body
 {
-background: url(Street.jpg);
+    background-color: black;
 padding: 0%;
 overflow-x: hidden;
 text-align: center;
-background-size: cover;
 }
+
+
 
 
 header
@@ -13,7 +14,7 @@ header
     background-color: white;
     padding: 15px;
     box-shadow: 0 0 3px black;
-    border-radius: 10px ; 
+    border-radius: 40px ; 
     margin: auto;
 }
 
@@ -21,6 +22,7 @@ header li
 {
     display: inline;
     padding-left: 45px;
+    position: relatives;
 }
 
 header li a
@@ -59,16 +61,28 @@ header li img
 
 }
 
+.middlebody
+{
+    height: 800px;
+    width: auto;
+    background-image: url(Street.jpg);
+    background-size: cover;
+}
+
 footer
 {
-    background-color: rgb(172, 19, 19);
+    background-color: rgba(172, 19, 19, 0.635);
     text-align: center;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 40px;
+    width: fit-content;
+    align-items: center;
+    height: max-content;
+    display: inline-block;
 }
 
 footer li
 {
     display: inline;
-    padding-left: 80px;
+    padding-left: 20px;
 }

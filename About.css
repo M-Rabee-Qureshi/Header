@@ -1,0 +1,78 @@
+body
+{
+    background: url(About.jpg);
+    background-size: cover;
+}
+h1
+{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    text-align: center;
+    color: rgba(245, 245, 220, 0.516);
+}
+
+.div1
+{
+    background: linear-gradient(205deg,rgba(0, 137, 50, 0.755),rgba(2, 146, 110, 0.753));
+    float: left;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    margin-left: 50px;
+    height: 300px;
+    width: 180px;
+    border-radius: 10px;
+    align-items: center;
+}
+.div1 p
+{
+    text-align: center;
+}
+.div1 h1
+{
+    color: rgb(173, 170, 170);
+text-align: center;
+}
+
+
+.div2
+{
+    background:linear-gradient(185deg,green,rgb(3, 178, 184));
+    backdrop-filter: blur(150px);
+    float: none;
+    margin-left: 280px;
+    height: 300px;
+    width: 180px;
+    border-radius: 10px;
+    align-items: center;
+}
+.div2 p
+{
+    text-align: center;
+}
+.div2 h1
+{
+    color: rgb(173, 170, 170);
+text-align: center;
+}
+
+
+footer
+{
+    background-color: rgba(3, 110, 118, 0.922);
+    text-align: center;
+    padding: 5px;
+    border-radius: 40px;
+    width: fit-content;
+    align-items: center;
+    height: max-content;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 45%;
+}
+
+footer li
+{
+    display: inline;
+    padding-left: 20px;
+}

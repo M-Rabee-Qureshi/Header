@@ -37,7 +37,8 @@ footer
     text-align: center;
     padding: 5px;
     border-radius: 50px;
-    margin: auto;
+    margin: 50px;
+    width: auto;
 }
 
 footer li
