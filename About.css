@@ -17,6 +17,100 @@ h1
 
 
 
+.div1
+{
+    background-color: rgb(210, 125, 45);
+    float: left;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    margin-left: 50px;
+    height: 300px;
+    width: 180px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.div1 p
+{
+    text-align: center;
+    align-items: center;
+}
+.div1 h1
+{
+    color: rgb(110, 38, 14);
+text-align: center;
+}
+
+
+.div2
+{
+    background-color: rgb(210, 125, 45);
+    backdrop-filter: blur(150px);
+    float: none;
+    margin-left: 280px;
+    height: 300px;
+    width: 180px;
+    border-radius: 10px;
+    align-items: center;
+}
+.div2 p
+{
+    text-align: center;
+}
+.div2 h1
+{
+    color: rgb(110, 38, 14);
+text-align: center;
+}
+
+
+.div3
+{
+    background-color: rgb(210, 125, 45);
+    float: left;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    margin-left: 50px;
+    height: 300px;
+    width: 180px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 25px;
+}
+.div3 p
+{
+    text-align: center;
+    align-items: center;
+}
+.div3 h1
+{
+    color: rgb(110, 38, 14);
+text-align: center;
+}
+
+.div4
+{
+    background-color: rgb(210, 125, 45);
+    backdrop-filter: blur(150px);
+    float: left;
+    margin-left: 50px;
+    height: 300px;
+    width: 180px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 25px;
+}
+.div4 p
+{
+    text-align: center;
+}
+.div4 h1
+{
+    color: rgb(110, 38, 14);
+text-align: center;
+}
+
+
 
 
 
